@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Creating Backup
+# For Creating Backup, you should always have a source whose backup you want to take and a target directory
+
 source_dir=$1
 target_dir=$2
 
