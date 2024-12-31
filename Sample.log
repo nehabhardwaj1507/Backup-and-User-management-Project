@@ -1,0 +1,24 @@
+[2024-12-31 08:00:00] Backup process started.
+[2024-12-31 08:00:05] Source directory: /home/user/data
+[2024-12-31 08:00:08] Destination directory: /mnt/backup/
+[2024-12-31 08:01:15] Warning: Large file "bigfile.iso" detected (Size: 10 GB).
+[2024-12-31 08:02:00] Backing up file "document1.txt".
+[2024-12-31 08:02:02] File "document1.txt" backed up successfully.
+[2024-12-31 08:03:05] Backing up file "image1.png".
+[2024-12-31 08:03:07] File "image1.png" backed up successfully.
+[2024-12-31 08:05:30] Warning: File "old_report.pdf" is 2 years old. Consider archiving it instead of backing up.
+[2024-12-31 08:07:15] Backing up file "bigfile.iso".
+[2024-12-31 08:15:45] Error: File "bigfile.iso" failed to back up. Disk space on destination is insufficient.
+[2024-12-31 08:15:50] Error code: 101 - Insufficient disk space on /mnt/backup/
+[2024-12-31 08:16:10] Attempting to free space by removing older backups.
+[2024-12-31 08:17:00] Warning: Failed to delete old backup "backup_old.tar". Permission denied.
+[2024-12-31 08:17:10] Warning: Could not free up space. Backup operation might not complete.
+[2024-12-31 08:17:20] Backing up file "important_document.txt".
+[2024-12-31 08:18:05] File "important_document.txt" backed up successfully.
+[2024-12-31 08:18:30] Warning: Backup process is taking longer than expected. Estimated time remaining: 15 minutes.
+[2024-12-31 08:20:45] Backup completed with errors and warnings.
+[2024-12-31 08:20:50] Total files successfully backed up: 45
+[2024-12-31 08:20:52] Total warnings: 3
+[2024-12-31 08:20:55] Total errors: 2
+[2024-12-31 08:21:00] Backup process finished with warnings and errors.
+
