@@ -47,5 +47,13 @@ The backup functionality includes:
 2. Edit file and create a cron job take backup every second:
    
    \* \* \* \* \* <backup-script.sh> <path/to/source_file> <path/to/destination_file>
+
+## Contributing
+Contributions are welcome! If you would like to improve the script or add new features, feel free to fork the repository and submit a pull request. Please follow the steps below to contribute:
+
+1. Fork the repository
+2. Create a new branch for your changes
+3. Commit your changes and push them to your forked repository
+4. Create a pull request with a detailed explanation of your changes
           
              
